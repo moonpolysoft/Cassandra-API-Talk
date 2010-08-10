@@ -80,8 +80,10 @@
 ![Coda Hale](codahale.jpg)
 ## "The Cassandra API actively hides the capabilities of the database." - Coda Hale ##
 
-!SLIDE
+!SLIDE bullets
 # Scromium solves my problem. #
+
+* http://github.com/cliffmoon/scromium
 
 !SLIDE
 # Did not solve Coda's problem. #
