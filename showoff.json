@@ -1,2 +1,6 @@
 { "name": "Scromium, Cassandra, and Thrift: A tale of fear and loathing.", 
-  "sections": [ {"section":"fear_and_loathing"}, {"section":"scromium"} ]}
+  "sections": [ 
+    {"section":"introduction"},
+    {"section":"hbase_api"},
+    {"section":"cassandra_api"},
+    {"section":"the_way_forward"} ]}
