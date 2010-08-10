@@ -62,7 +62,7 @@
     }
     
 !SLIDE bullets incremental
-# Design Principals #
+# Design Principles #
 
 * Lowest common denominator.
 * Tightly coupled to implementation.

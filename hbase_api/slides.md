@@ -51,7 +51,7 @@
     scanner.close();
 
 !SLIDE bullets incremental
-# Design Principals #
+# Design Principles #
 
 * Table and command abstraction.
 * Composable pieces.
