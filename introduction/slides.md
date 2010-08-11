@@ -2,6 +2,7 @@
 # Cliff Moon #
 ## http://github.com/cliffmoon ##
 ## http://twitter.com/moonpolysoft ##
+## cliff@leaninto.it ##
 
 !SLIDE
 # Cassandra's API #
@@ -29,11 +30,8 @@
 ![cassandra clients](clients.jpg)
 ## Cassandra Clients ##
 
-!SLIDE center
-
-![hbase clients](hbase_clients.jpg)
-## HBase Clients ##
-
 !SLIDE
 # Why does Cassandra have so many clients? #
 
+!SLIDE
+# Comparative Design Review #

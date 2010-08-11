@@ -1,5 +1,16 @@
+!SLIDE center
+
+![hbase clients](hbase_clients.jpg)
+## HBase Clients ##
+
+!SLIDE bullets incremental
+
+* Java client talks natively to HBase.
+* Other protocols are implemented using the Java client.
+* Live as separate daemons.
+
 !SLIDE
-# The HBase API #
+# The HBase Java API #
 
 !SLIDE
 # Setup #

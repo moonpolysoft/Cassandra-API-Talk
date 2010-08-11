@@ -32,8 +32,8 @@
     @@@ Java
     ColumnPath path = new ColumnPath("Standard1", 
       null, "name".getBytes("UTF-8"));
-    System.out.println(client.get("Keyspace1", 
-      key_user_id, path, ConsistencyLevel.ONE));
+    client.get("Keyspace1", 
+      key_user_id, path, ConsistencyLevel.ONE);
       
 !SLIDE
 # Read Rows #

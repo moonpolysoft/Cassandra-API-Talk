@@ -10,6 +10,9 @@
 !SLIDE
 # Client disarray hurts the community. #
 
+!SLIDE
+# Fundamentally redo the API. #
+
 !SLIDE bullets incremental
 # First class Java client #
 
@@ -18,23 +21,28 @@
 * Designed for high throughput.
 * Real map-reduce support.
 
+!SLIDE
+# Java interface is a foundation. #
+
+!SLIDE
+# Build other interfaces on the Java client. #
+
 !SLIDE bullets incremental
 # REST Interface #
 
-* Designed for frontend code.
-* Content negotiation.
-* Written using Java client.
+* Design it for frontend code.
+* Should do content negotiation.
+* Separate daemon.
 
 !SLIDE code
-
-    Accept: application/json
     GET /Keyspace/ColumnFamily/row/
         super_column/column
+    Accept: application/json
 
+    X-Timestamp: 80085
     {
       "name" : "column",
-      "value" : "balls",
-      "timestamp" : 80085
+      "value" : "balls"
     }
 
 !SLIDE bullets incremental
@@ -43,19 +51,4 @@
 * Simple verbs.
 * Use base data types.
 * Don't be clever.
-
-!SLIDE
-# API is UI. #
-
-!SLIDE bullets incremental
-# Look to other databases. #
-
-* Riak
-* MongoDB
-* CouchDB
-* HBase
-
-!SLIDE bullets incremental
-# Treat Cassandra like a product. #
-
-* Not a hobby.
+* Separate daemon.

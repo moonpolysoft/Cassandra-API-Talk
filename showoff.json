@@ -3,4 +3,5 @@
     {"section":"introduction"},
     {"section":"hbase_api"},
     {"section":"cassandra_api"},
-    {"section":"the_way_forward"} ]}
+    {"section":"the_way_forward"},
+    {"section":"conclusion"} ]}
