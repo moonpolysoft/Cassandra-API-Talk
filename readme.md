@@ -5,4 +5,4 @@ To view:
     cd Cassandra-API-Talk
     showoff serve
 
-http://localhost:9090/
+[http://localhost:9090/](http://localhost:9090/)
